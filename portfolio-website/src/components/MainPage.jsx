@@ -8,15 +8,15 @@ export const MainPage = () => {
   <img className="w-full h-screen object-cover object-left scale-x-[-1]" src={bild1} alt="mig"/>
   <div className="w-full h-screen absolute top-0 left-0">
     <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center"> 
-        <h1 className="sm:text-5xl text-4xl font-bold pt-2 text-[#001b5e] bg-white/40">Rikke Kristiansen</h1>
-        <h2 className="flex sm:text-3xl text-2xl pb-2 text-gray-800 bg-white/40">
+        <h1 className="sm:text-5xl text-4xl font-bold text-[#001b5e] bg-white/40 mt-60">Rikke Kristiansen</h1>
+        <h2 className="flex sm:text-3xl text-2xl pb-2 text-gray-800 bg-white/40"> Jag gillar att jobba med
         <TypeAnimation
       sequence={[
-        'frontend..',
+        'HTML och CSS',
         1000,
-        'backend..',
+        'JavaScript',
         1000,
-        'fullstack utvecklare',
+        'React och Node',
         3000,
       ]}
       wrapper="span"
