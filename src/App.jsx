@@ -4,6 +4,7 @@ import { MainPage } from './components/MainPage'
 import { Education } from './components/Education'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact'
+import { About } from './components/About'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
      <Sidenav />
      <MainPage />
+     <About />
      <Education />
      <Projects />
      <Contact />
