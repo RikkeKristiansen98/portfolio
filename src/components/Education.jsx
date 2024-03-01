@@ -29,7 +29,7 @@ const data = [
 export const Education = () => {
     return (
         <div id="education" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-            <h1 className="text-4xl font-bold text-center text-[#001b5e]">Utbildningar</h1>
+            <h1 className="text-4xl pb-10 font-bold text-center text-[#001b5e]">Utbildningar</h1>
             {data.map((item, idx) => (
 <EducationItem 
 key={idx} 
