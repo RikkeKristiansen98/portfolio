@@ -1,8 +1,6 @@
 import bild1 from "../images/bild1.png";
 import {TypeAnimation} from 'react-type-animation';
-import {FaFacebookF, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+
 
 
 export const MainPage = () => {
@@ -28,18 +26,7 @@ export const MainPage = () => {
       repeat={Infinity}
     />
  </h2>
- <div className="flex justify-between pt-6 max-w-[200px] w-full"> 
- <a href="https://www.linkedin.com/in/rikke-kristiansen-73a582152/"> 
- <FaLinkedinIn className="cursor-pointer" size={20}/>
- </a>
- <a href="https://www.instagram.com/rikkejkristiansen"> 
- <FaInstagram className="cursor-pointer" size={20}/>
- </a>
- <a href="https://github.com/RikkeKristiansen98"> 
- <FontAwesomeIcon icon={faGithubSquare} style={{ fontSize: "20px" }}/>
-</a>
 
-</div>
  </div>
  </div>
  </div>
